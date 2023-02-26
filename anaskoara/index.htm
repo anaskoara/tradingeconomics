@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+		<script src="./chart.js"></script>
+		<script type="module" src="./scripts.js"></script>
+		<script src="news.js" defer></script>
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>description</h1>
+		<section>
+			this is quick demonstration for uasing
+			<a href="https://tradingeconomics.com">https://tradingeconomics.com</a>
+			API. <br />
+			I implemened to tasks
+			<p>
+				<b>First:</b> Compare to countries statis and create table of data and
+				display chart for compration, I ddi not understand all data so there are
+				mush more room for imporvents
+			</p>
+			<p><b>Second:</b> display news feed</p>
+
+			<p>
+				I used only javascript and tried not not use many libraries to keep it
+				simple.
+			</p>
+		</section>
+
+		<h2>compare two countries statics</h2>
+		<div>
+			<select name="country" id="country"></select>
+
+			<select name="country1" id="country1"></select>
+		</div>
+		<div>
+			<div id="loading" class="hidden">loading</div>
+			<div id="chart"><canvas id="myChart"></canvas></div>
+			<table id="data-table" class="hidden">
+				<thead>
+					<th></th>
+					<th>indicator</th>
+					<th id="c1"></th>
+					<th id="c2"></th>
+				</thead>
+				<tbody></tbody>
+			</table>
+		</div>
+		<div id="news" class="">
+			<h1>news</h1>
+		</div>
+	</body>
+</html>

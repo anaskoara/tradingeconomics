@@ -1,0 +1,43 @@
+.bgred {
+	background-color: red;
+}
+.hidden {
+	display: none;
+}
+#data-table tr {
+	border: 1px solid black;
+}
+#data-table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+#data-table tr:hover {
+	background-color: #ffff99;
+	cursor: pointer;
+}
+#chart {
+	/* background-color: aqua; */
+	position: fixed;
+	right: 0%;
+	top: 100px;
+	width: 400px;
+}
+
+#news {
+	padding: 1rem;
+}
+
+#news div {
+	background-color: beige;
+	margin: 1rem;
+	padding: 10px;
+}
+#news span {
+	font-size: small;
+	color: rgba(144, 130, 130, 0.963);
+}
+#news h2 {
+	font-size: 2rem;
+}
+#news p {
+	font-size: 1rem;
+}
